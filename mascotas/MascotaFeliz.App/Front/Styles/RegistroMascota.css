@@ -1,0 +1,17 @@
+.Sidenav {
+    position: relative;
+    margin-left: 30%;
+    padding-left: 50%;
+}
+
+
+/* #IdSidenav {
+    background-color: blue;
+    position: relative;
+    margin-left: 1rem;
+    padding-left: 50%;
+} */
+
+Sidenav.a {
+    background-color: brown;
+}
