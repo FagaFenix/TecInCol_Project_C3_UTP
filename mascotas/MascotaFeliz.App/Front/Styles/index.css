@@ -1,12 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body {
-    background-color: rgb(136, 230, 230);
+
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: blueviolet;
-    font-size: 3rem;
+#container {
+
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid white;
+
 }
 
-img {
-    width: 10rem;
+header {
+    background-color: lightblue;
+    height: 150px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 150px;
+    color: grey;
+    border-bottom: dashed black;
+
 }
