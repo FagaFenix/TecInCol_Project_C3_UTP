@@ -1,17 +1,111 @@
-.Sidenav {
-    position: relative;
-    margin-left: 30%;
-    padding-left: 50%;
+html {
+    font-family: 'Montserrat', 'Sans serif';
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    background-color: #364552;
+    padding: 3.5rem 2rem;
+}
+header h1 {
+    float: center;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+header li {
+    list-style: none;
+    float: right;
+}
+header a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+header a:hover{
+    color: cornflowerblue;
+}
+header img {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 11rem;
+}
+#container{
+    padding: 0;
+    margin: 0;  
+    width: 100%;  
+}
+#main h2{
+    float:left;
+    color:darkslategray;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 1rem;
+}
+#main a{
+    text-decoration: none;
+    color:darkslategray;
+    float:right;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem;
+}
+#main a:hover{
+    color: cornflowerblue;
+}
+#container img{
+    float:left;
+    padding: 0;
+    margin: 0.7rem;    
+}
+#container img:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+.clearfix {
+    clear: both;
+}
+#formulario{
+    float: right;
+    width: 50rem; 
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+#formulario label{
+    font-size: 1.5rem;
+    color:darkolivegreen;
+}
+#formulario label:hover {
+    text-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+#formulario input{
+    font-size: 1rem;
+    color: rgb(3, 23, 59);
+    width: 20rem; 
+}
+.clearfix {
+    clear: both;
+}
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;    
+}
+footer section{
+    float: right;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+footer a:hover{
+    color: cornflowerblue;
 }
 
-
-/* #IdSidenav {
-    background-color: blue;
-    position: relative;
-    margin-left: 1rem;
-    padding-left: 50%;
-} */
-
-Sidenav.a {
-    background-color: brown;
-}

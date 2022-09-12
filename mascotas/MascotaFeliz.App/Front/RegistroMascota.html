@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mascota Feliz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/RegistroMascota.css">
 </head>
 
-
 <body>
-    <a href="./index.html">
-        <h2>INICIO</h2>
-    </a>
-    <div>
-        <H1>!Esta página es para hacer el registro de tu mejor amigo!</H1>
-        <div class="Sidenav" id="IdSidenav">
-            <a href="">
-                <h2>¿Ya está registrada tu mascota?</h2>
-            </a>
-            <a href="">
-                <h2>¿Necesitas ver todas las mascotas registradas?</h2>
-            </a>
-        </div>
-    </div>
-    <form>
-        <label for="name">Nombre:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
+    <header>
+        <img alt="Logo" src="Img/Logo.jpg">
+        <h1>REGISTRO DE MASCOTA</h1>
+        <li>
+            <a href="index.html">INICIO</a>
+            <a href="RegistroDueno.html">REGISTRAR DUEÑO</a>
+            <a href="RegistroVeterinario.html">REGISTRAR VETERINARIO</a>
+        </li>
+    </header>
+    <section id="container">
+        
+        <section id="main">
+            <h2>!Esta página es para hacer el registro de tu mejor amigo!</h2>
+            <a href="">¿Necesitas ver todas las mascotas registradas?</a>
+            <a href="">¿Ya está registrada tu mascota?</a>                       
+        </section>
+        <section class="clearfix">
+        <img width="800px" alt="Mascota" src="Img/Mascota.jpg">
+        <section id="formulario">
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" placeholder="Nombre de la mascota"><br>
+                <label for="Color">Color:</label><br>
+                <input type="text" id="Color" name="Color" placeholder="Color de la mascota"><br>
+                <label for="Especie">Especie:</label><br>
+                <input type="text" id="Especie" name="Especie" placeholder="Especie de la mascota"><br>
+                <label for="Raza">Raza:</label><br>
+                <input type="text" id="Raza" name="Raza" placeholder="Raza de la mascota"><br>
+                <label for="Id">Id:</label><br>
+                <input type="number" id="Id" name="Id" value=""><br>
+                <label for="Dueno">Dueño:</label><br>
+                <input type="text" id="Dueno" name="Dueno" placeholder="Nombre del propietario"><br>
+                <label for="Veterinario">Veterinario:</label><br>
+                <input type="text" id="Veterinario" name="Veterinario" placeholder="Veterinario asignado"><br><br>
+                <!--  <label for="Historia">Historia:</label><br>
+                <input type="text" id="Historia" name="Historia" placeholder="Nombre de la Mascota"><br><br> -->
 
-        <label for="Color">Color:</label><br>
-        <input type="text" id="Color" name="Color" value=""><br>
-
-        <label for="Especie">Especie:</label><br>
-        <input type="text" id="Especie" name="Especie" value=""><br>
-
-        <label for="Raza">Raza:</label><br>
-        <input type="text" id="Raza" name="Raza" value=""><br>
-
-        <label for="Id">Id:</label><br>
-        <input type="number" id="Id" name="Id" value=""><br>
-
-        <label for="Dueno">Dueño:</label><br>
-        <input type="text" id="Dueno" name="Dueno" value=""><br>
-
-        <label for="Veterinario">Veterinario:</label><br>
-        <input type="text" id="Veterinario" name="Veterinario" value=""><br>
-
-        <label for="Historia">Historia:</label><br>
-        <input type="text" id="Historia" name="Historia" value=""><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-
+                <button type="button" class="btn btn-outline-dark">GUARDAR</button>
+                
+            </form>
+        </section>
+    </section>
+    <section class="clearfix">        
+    </section>
+    <footer>
+        Powered by TecInCol WEB &copy; 2022
+        <section>
+            <a href="mailto:TecInColWEB@gmail.com">CONTACTANOS</a>
+        </section>
+    </footer>
 </body>
 
 </html>

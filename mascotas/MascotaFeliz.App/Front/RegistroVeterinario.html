@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mascota Feliz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/RegistroVeterinario.css">
 </head>
 
 <body>
-    <a href="./index.html">
-        <h2>INICIO</h2>
-    </a>
-    <H1>Esta página es para hacer el registro del veterinario</H1>
-    <form>
-        <label for="fname">Nombres:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Apellidos:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br>
-        <label for="fId">Cédula:</label><br>
-        <input type="number" id="fId" name="fname" value=""><br>
-        <label for="fId">Dirección:</label><br>
-        <input type="text" id="fdireccion" name="fdireccion" value=""><br>
-        <label for="lname">Tarjeta Profesional:</label><br>
-        <input type="text" id="lname" name="lname" value=""><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <header>
+        <img alt="Logo" src="Img/Logo.jpg">
+        <h1>REGISTRO DE VETERINARIO</h1>
+        <li>
+            <a href="index.html">INICIO</a>
+            <a href="RegistroMascota.html">REGISTRAR MASCOTA</a>
+            <a href="RegistroDueno.html">REGISTRAR DUEÑO</a>            
+        </li>
+    </header>
+    <section id="container">
+
+        <section id="main">
+            <h2>!Esta página es para hacer el registro del veterinario!</h2>
+            <!-- <a href="">¿Necesitas ver todas las mascotas registradas?</a>
+            <a href="">¿Ya está registrada tu mascota?</a>  -->
+        </section>
+        <section class="clearfix">
+            <img width="800px" alt="Veterinario" src="Img/Veterinario2.jpg">
+            <section id="formulario">
+                <form>
+                    <label for="fname">Nombres:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Nombres del veterinario"><br>
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Apellidos del veterinario"><br>
+                    <label for="Id">Id (Cedula):</label><br>
+                    <input type="text" id="fId" name="fId" placeholder="Cedula del veterinario"><br>
+                    <label for="Id">Telefono:</label><br>
+                    <input type="text" id="fCel" name="fCel" placeholder="Numero de contacto"><br>
+                    <label for="TarProf">Tarjeta Profesional:</label><br>
+                    <input type="text" id="TarProf" name="TarProf" placeholder="Numero de la tarj. profesional"><br><br>
+
+                    <button type="button" class="btn btn-outline-dark">GUARDAR</button>
+
+                </form>
+            </section>
+        </section>
+        <section class="clearfix">
+        </section>
+        <footer>
+            Powered by TecInCol WEB &copy; 2022
+            <section>
+                <a href="mailto:TecInColWEB@gmail.com">CONTACTANOS</a>
+            </section>
+        </footer>
 </body>
 
 </html>
+
