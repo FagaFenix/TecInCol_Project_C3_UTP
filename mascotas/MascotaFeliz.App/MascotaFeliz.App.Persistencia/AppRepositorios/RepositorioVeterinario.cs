@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
-    public class RepositorioVeterionario : IRepositorioVeterinario
+    public class RepositorioVeterinario : IRepositorioVeterinario
     {
         /// <summary>
         /// Referencia al contexto de Veterinario
