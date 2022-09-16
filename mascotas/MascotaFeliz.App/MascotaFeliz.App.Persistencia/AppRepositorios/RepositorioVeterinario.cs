@@ -42,9 +42,10 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<Veterinario> GetAllVeterinarios()
+        public IEnumerable<Veterinario>
+        GetAllVeterinarios() //IEnumerable es un tipo de dato
         {
-            return _appContext.Veterinarios;
+            return GetAllVeterinarios_();
         }
 
         public IEnumerable<Veterinario> GetVeterinariosPorFiltro(string filtro)
@@ -63,6 +64,11 @@ namespace MascotaFeliz.App.Persistencia
                 }
             }
             return veterinarios;
+        }
+
+        public IEnumerable<Veterinario> GetAllVeterinarios_()
+        {
+            return _appContext.Veterinarios;
         }
 
         public Veterinario GetVeterinario(int idVeterinario)
