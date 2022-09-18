@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mascota Feliz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/RegistroMascota.css">
+</head>
+
+<body>
+    <header>
+        <img alt="Logo" src="Img/Logo.jpg">
+        <h1>REGISTRO DE VISITA PyP</h1>
+        <li>
+            <a href="index.html">INICIO</a>
+            <a href="RegistroDueno.html">REGISTRAR DUEÑO</a>
+            <a href="RegistroVeterinario.html">REGISTRAR VETERINARIO</a>
+            <a href="RegistroHistoria.html">REGISTRAR HISTORIA</a>
+            <a href="RegistroVisita.html">REGISTRAR VISITA PYP</a>
+        </li>
+    </header>
+    <section id="container">
+        
+        <section id="main">
+            <h2>!Esta página es para hacer el registro de una visita!</h2>
+            <a href="">¿Necesitas ver todas las visitas registradas?</a>
+            <a href="">¿Quieres buscar una visita PyP?</a>                       
+        </section>
+        <section class="clearfix">
+        <img width="800rem" alt="Visita" src="Img/Visita.jpg">
+        <section id="formulario">
+            <form>
+                <label for="Id">Id:</label><br>
+                <input type="number" id="Id" name="Id" value=""><br>
+                <label for="FechaI">Fecha Inicial:</label><br>
+                <input type="text" id="FechaI" name="FechaI" placeholder="Fecha de la Visita"><br>
+                <label for="Temp">Temperatura:</label><br>
+                <input type="text" id="Temp" name="Temperatura" placeholder="Temperatura"><br>
+                <label for="Peso">Peso:</label><br>
+                <input type="text" id="Peso" name="Peso" placeholder="Peso"><br>                
+                <label for="FResp">Frecuencia Respiratoria:</label><br>
+                <input type="text" id="Fresp" name="FrecResp" placeholder="Frecuencia respiratoria"><br>
+                <label for="FCard">Frecuencia Cardiaca:</label><br>
+                <input type="text" id="FCard" name="FrecCard" placeholder="Frecuencia cardiaca"><br>
+                <label for="EstAnimo">Estado de Animo:</label><br>
+                <input type="text" id="EstAnimo" name="EstAnimo" placeholder="Estado de Animo"><br>
+                <label for="IdVet">Id Veterinario:</label><br>
+                <input type="number" id="IdVet" name="IdVeterinario" value=""><br><br>
+
+                <button type="button" class="btn btn-outline-dark">GUARDAR</button>
+                
+            </form>
+        </section>
+    </section>
+    <section class="clearfix">        
+    </section>
+    <footer>
+        Powered by TecInCol WEB &copy; 2022
+        <section>
+            <a href="mailto:TecInColWEB@gmail.com">CONTACTANOS</a>
+        </section>
+    </footer>
+</body>
+
+</html>

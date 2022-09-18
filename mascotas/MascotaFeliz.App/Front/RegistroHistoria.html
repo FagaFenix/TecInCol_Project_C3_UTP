@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Styles/RegistroHistoria.css">
+    <title>Mascota Feliz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/RegistroVeterinario.css">
 </head>
 
 <body>
-    <h1>
-        Registro de Historia Clinica
-    </h1>
+    <header>
+        <img alt="Logo" src="Img/Logo.jpg">
+        <h1>REGISTRO DE HISTORIAS</h1>
+        <li>
+            <a href="index.html">INICIO</a>
+            <a href="RegistroMascota.html">REGISTRAR MASCOTA</a>
+            <a href="RegistroDueno.html">REGISTRAR DUEÑO</a>
+            <a href="RegistroVeterinario.html">REGISTRAR VETERINARIO</a>
+            <a href="RegistroVisita.html">REGISTRAR VISITA PYP</a>
+        </li>
+    </header>
+    <section id="container">
 
-    <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-    </div>
+        <section id="main">
+            <h2>!Esta página es para hacer el registro de una historia clinica!</h2>
+            <a href="">¿Necesitas ver todas las historias registradas?</a>
+            <a href="">¿Quieres buscar una historia clinica?</a>
+        </section>
+        <section class="clearfix">
+            <img width="800rem" alt="Historia2" src="Img/Historia.jpg">
+            <section id="formulario">
+                <form>
+                    <label for="Id">Id:</label><br>
+                    <input type="text" id="fId" name="fId" placeholder="Id de la historia clinica"><br>
+                    <label for="ffecha">Fecha Inicial:</label><br>
+                    <input type="text" id="ffecha" name="ffecha" placeholder="Fecha de Creación"><br>
+                    <label for="visitaPP">Visita PyP:</label><br>
+                    <input type="text" id="visitaPP" name="VisitaPyP" placeholder="Visita"><br><br>
 
+                    <button type="button" class="btn btn-outline-dark">GUARDAR</button>
+
+                </form>
+            </section>
+        </section>
+        <section class="clearfix">
+        </section>
+        <footer>
+            Powered by TecInCol WEB &copy; 2022
+            <section>
+                <a href="mailto:TecInColWEB@gmail.com">CONTACTANOS</a>
+            </section>
+        </footer>
 </body>
 
 </html>
