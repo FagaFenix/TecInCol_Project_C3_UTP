@@ -6,7 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
+<<<<<<< HEAD
     public class RepositorioVeterionario : IRepositorioVeterinario
+=======
+    public class RepositorioVeterinario : IRepositorioVeterinario
+>>>>>>> main
     {
         /// <summary>
         /// Referencia al contexto de Veterinario
@@ -42,9 +46,16 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
+<<<<<<< HEAD
         public IEnumerable<Veterinario> GetAllVeterinarios()
         {
             return _appContext.Veterinarios;
+=======
+        public IEnumerable<Veterinario>
+        GetAllVeterinarios() //IEnumerable es un tipo de dato
+        {
+            return GetAllVeterinarios_();
+>>>>>>> main
         }
 
         public IEnumerable<Veterinario> GetVeterinariosPorFiltro(string filtro)
@@ -65,6 +76,14 @@ namespace MascotaFeliz.App.Persistencia
             return veterinarios;
         }
 
+<<<<<<< HEAD
+=======
+        public IEnumerable<Veterinario> GetAllVeterinarios_()
+        {
+            return _appContext.Veterinarios;
+        }
+
+>>>>>>> main
         public Veterinario GetVeterinario(int idVeterinario)
         {
             return _appContext
