@@ -16,5 +16,16 @@ namespace MascotaFeliz.App.Persistencia
         public DbSet<Veterinario> Veterinarios { get; set; }
 
         public DbSet<VisitaPyP> VisitasPyP { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = MascotaFelizData");
+            }
+        }    
+    
     }
+    
 }
