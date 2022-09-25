@@ -18,9 +18,9 @@ namespace MascotaFeliz.App.Consola
             _repoMascota =
                 new RepositorioMascota(new Persistencia.AppContext());
 
-        private static IRepositorioHistoria
-            _repoHistoria =
-                new RepositorioHistoria(new Persistencia.AppContext());
+        //private static IRepositorioHistoria
+          //  _repoHistoria =
+            //    new RepositorioHistoria(new Persistencia.AppContext());
 
         // private static IRepositorioVisitaPyP
         //     _repoVisitaPyP =
