@@ -19,6 +19,6 @@ namespace MascotaFeliz.App.Dominio
 
         public Historia Historia { get; set; }
         
-        public string Telefono { get; set; }
+        //public string Telefono { get; set; }
     }
 }

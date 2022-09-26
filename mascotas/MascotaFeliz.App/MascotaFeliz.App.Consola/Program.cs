@@ -18,9 +18,9 @@ namespace MascotaFeliz.App.Consola
             _repoMascota =
                 new RepositorioMascota(new Persistencia.AppContext());
 
-        private static IRepositorioHistoria
-            _repoHistoria =
-                new RepositorioHistoria(new Persistencia.AppContext());
+       // private static IRepositorioHistoria
+         //   _repoHistoria =
+           //     new RepositorioHistoria(new Persistencia.AppContext());
 
         // private static IRepositorioVisitaPyP
         //     _repoVisitaPyP =
@@ -235,7 +235,7 @@ namespace MascotaFeliz.App.Consola
             //AddVeterinario();
             //AddMascota();
             //getDueno_(1);
-            //getVeterinario_();
+            //getVeterinario_(2);
             //listDuenosPorFiltroNombres("Juan");
             //GetAllDuenos_();
             //GetMascota_(3);

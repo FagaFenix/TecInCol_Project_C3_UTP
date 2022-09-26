@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fagaf\\.nuget\\packages\\": {}
+    "C:\\Users\\juans\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+      "projectUniqueName": "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
       "projectName": "MascotaFeliz.App.Consola",
-      "projectPath": "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\fagaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\obj\\",
+      "projectPath": "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fagaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\juans\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             },
-            "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\fagaf\\OneDrive\\Documentos\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
+            "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+              "projectPath": "C:\\Proyecto\\TecInCol_Project_C3_UTP\\mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
             }
           }
         }
