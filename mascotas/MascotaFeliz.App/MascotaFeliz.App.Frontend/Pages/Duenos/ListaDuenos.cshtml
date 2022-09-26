@@ -1,0 +1,20 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.ListaDuenosModel
+@{
+}
+<h1>Listado de Propietarios</h1>
+<table class="table">
+    @foreach (var dueno in Model.listaDuenos)
+    {
+        <tr>
+            <td>@dueno.Nombres</td>
+            <td>@dueno.Apellidos</td>
+
+            <td>
+                <a class="btn-btn-primary-table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
+                    Detalle Dueno
+                </a>
+            </td>
+        </tr>
+    }
+</table>
